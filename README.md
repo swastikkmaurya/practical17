@@ -7,6 +7,16 @@ Theory:
 This experiment focuses on Data Visualization, a critical component of data analysis used to transform complex datasets into visual representations like charts and graphs to uncover patterns, trends, and correlations.
 By utilizing the matplotlib and seaborn libraries, the program demonstrates how to generate various plots—such as bar charts, histograms, and scatter plots—to interpret categorical and numerical distributions effectively.
 
+Visualizations map complex mathematical structures into visual formats that humans can easily interpret to find patterns, trends, and outliers.
+
+Line Chart: Used for tracking trends over time. The algorithm maps independent variables (like days) to the X-axis and dependent variables (like sales) to the Y-axis, connecting the coordinates with continuous line segments.
+
+Bar Chart: Used for comparing discrete categories. The algorithm calculates the frequency or specific value of distinct categories and draws rectangular bars from a baseline to a height proportional to that value.
+
+Histogram: Used to visualize the distribution of continuous data. The algorithm determines the data range, divides it into equal-width "bins," counts how many data points fall into each bin, and draws adjacent vertical bars representing those frequencies.
+
+Scatter Plot: Used for discovering relationships and correlations between two variables. The algorithm plots standalone dots on a 2D Cartesian plane for every pair of data points. If the dots form a recognizable pattern (like an upward slope), it indicates a correlation.
+
 import matplotlib.pyplot as plt: Imports the primary library used for creating static, interactive, and animated visualizations in Python.
 
 import seaborn as sns: Imports a high-level interface based on matplotlib for drawing attractive and informative statistical graphics.
